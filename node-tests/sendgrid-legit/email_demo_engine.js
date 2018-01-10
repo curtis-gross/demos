@@ -3,7 +3,6 @@ sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
 var express = require('express');
 var bodyParser = require('body-parser');
-//var app = express();
 var http = require('http');
 var fs = require('fs');
 
